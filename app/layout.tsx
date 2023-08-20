@@ -11,9 +11,9 @@ export const metadata: Metadata = {
   icons: './favicon.ico',
   openGraph: {
     title: {
-      template: '...',
-      default: '🌊 | WaveCode.pl - Pokaż się w sieci!',
-      absolute: '...',
+      template: '🌊 | WaveCode.pl - Pokaż się w sieci!1',
+      default: '🌊 | WaveCode.pl - Pokaż się w sieci!2',
+      absolute: '🌊 | WaveCode.pl - Pokaż się w sieci!3',
     },
     description:
       'Z pomocą WaveCode zaprojektujemy twoje logo, wykonamy twoją wymarzoną nowoczesną witrynę internetową wraz z pełną oprawą wizualną. Stosujemy własne standardy optymalizacji oraz jakości w zakresie tworzenia stron, baz danych i aplikacji internetowych. Pokaż się w sieci!',
