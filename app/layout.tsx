@@ -19,7 +19,6 @@ export const metadata: Metadata = {
     description:
       'Z pomocą WaveCode zaprojektujemy twoje logo, wykonamy twoją wymarzoną nowoczesną witrynę internetową wraz z pełną oprawą wizualną. Stosujemy własne standardy optymalizacji oraz jakości w zakresie tworzenia stron, baz danych i aplikacji internetowych. Pokaż się w sieci!',
     type: 'website',
-    images: [{ url: 'https://i.imgur.com/ENaxAEr.png', width: 32, height: 32 }],
   },
 };
 
@@ -30,20 +29,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      {/*       <head>
-        <meta property='og:site_name' content='WaveCode.pl' />
-        <meta
-          property='og:title'
-          content='🌊 | WaveCode.pl - Pokaż się w sieci!'
-        />
-        <meta property='og:type' content='website' />
-        <meta
-          property='og:description'
-          content='Z pomocą WaveCode zaprojektujemy twoje logo, wykonamy twoją wymarzoną nowoczesną witrynę internetową wraz z pełną oprawą wizualną. Stosujemy własne standardy optymalizacji oraz jakości w zakresie tworzenia stron, baz danych i aplikacji internetowych. Pokaż się w sieci!'
-        />
+      <head>
         <meta property='og:image' content='https://i.imgur.com/ENaxAEr.png' />
-        <meta name='theme-color' content='#009cff' />
-      </head> */}
+      </head>
       <body className={poppins.className}>{children}</body>
     </html>
   );
