@@ -12,6 +12,13 @@ export const metadata: Metadata = {
   description:
     'Z pomocą WaveCode zaprojektujemy twoje logo, wykonamy twoją wymarzoną nowoczesną witrynę internetową wraz z pełną oprawą wizualną. Stosujemy własne standardy optymalizacji oraz jakości w zakresie tworzenia stron, baz danych i aplikacji internetowych. Pokaż się w sieci!',
   icons: './favicon.ico',
+  themeColor: '#009cff',
+  openGraph: {
+    siteName: 'WaveCode.pl',
+    title: '🌊 | WaveCode.pl - Pokaż się w sieci!',
+    type: 'website',
+    images: [{ url: '/public/Logo.png', width: 800, height: 600 }],
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <head>
+      {/*       <head>
         <meta property='og:site_name' content='WaveCode.pl' />
         <meta
           property='og:title'
@@ -34,7 +41,7 @@ export default function RootLayout({
         />
         <meta property='og:image' content='https://i.imgur.com/ENaxAEr.png' />
         <meta name='theme-color' content='#009cff' />
-      </head>
+      </head> */}
       <body className={poppins.className}>{children}</body>
     </html>
   );
