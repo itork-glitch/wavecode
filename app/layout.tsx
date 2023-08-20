@@ -32,7 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <Head>
+      <head>
         <meta property='og:site_name' content='WaveCode.pl' />
         <meta
           property='og:title'
@@ -45,7 +45,7 @@ export default function RootLayout({
         />
         <meta property='og:image' content='https://i.imgur.com/ENaxAEr.png' />
         <meta name='theme-color' content='#009cff' />
-      </Head>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
