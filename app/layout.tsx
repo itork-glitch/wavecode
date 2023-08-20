@@ -13,7 +13,10 @@ export const metadata: Metadata = {
     title: '🌊 | WaveCode.pl - Pokaż się w sieci!',
     description:
       'Z pomocą WaveCode zaprojektujemy twoje logo, wykonamy twoją wymarzoną nowoczesną witrynę internetową wraz z pełną oprawą wizualną. Stosujemy własne standardy optymalizacji oraz jakości w zakresie tworzenia stron, baz danych i aplikacji internetowych. Pokaż się w sieci!',
-    images: '/icon.png',
+    images: [{ url: '../public/favicon.png', alt: '' }],
+    locale: 'pl-PL',
+    type: 'website',
+    siteName: 'WaveCode.pl',
   },
 };
 
