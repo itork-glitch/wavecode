@@ -10,10 +10,14 @@ export const metadata: Metadata = {
     'Z pomocą WaveCode zaprojektujemy twoje logo, wykonamy twoją wymarzoną nowoczesną witrynę internetową wraz z pełną oprawą wizualną. Stosujemy własne standardy optymalizacji oraz jakości w zakresie tworzenia stron, baz danych i aplikacji internetowych. Pokaż się w sieci!',
   icons: './favicon.ico',
   openGraph: {
-    title: '🌊 | WaveCode.pl - Pokaż się w sieci!',
+    title: {
+      template: '...',
+      default: '🌊 | WaveCode.pl - Pokaż się w sieci!',
+      absolute: '...',
+    },
     description:
       'Z pomocą WaveCode zaprojektujemy twoje logo, wykonamy twoją wymarzoną nowoczesną witrynę internetową wraz z pełną oprawą wizualną. Stosujemy własne standardy optymalizacji oraz jakości w zakresie tworzenia stron, baz danych i aplikacji internetowych. Pokaż się w sieci!',
-    images: [{ url: '../public/favicon.png', alt: '' }],
+    images: '/icon.png',
     locale: 'pl-PL',
     type: 'website',
     siteName: 'WaveCode.pl',
